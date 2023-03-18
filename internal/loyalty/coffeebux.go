@@ -1,6 +1,11 @@
 package loyalty 
 
 import (
+	"context" 
+	"errors" 
+	"fmt" 
+
+	
 	"github.com/google/uuid" 
 
 	coffeeco "github.com/irononet/coffeeco/internal" 
